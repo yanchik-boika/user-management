@@ -107,3 +107,44 @@ tr:nth-child(even) {
     transform: rotate(360deg);
   }
 }
+
+
+@media(min-width: 1075px) and (max-width: 1400px){
+  #inputs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  #inputs input{
+    margin: 20px 20px;
+    width: 70%;
+    max-width: 250px;
+  }
+}
+
+@media(min-width: 831px) and (max-width: 1075px) {
+  #inputs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  #inputs input {
+    margin: 10px 5px;
+    width: 90%;
+    max-width: 250px;
+  }
+}
+
+@media(max-width: 830px){
+  #inputs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  #inputs input{
+    margin: 10px 10px;
+    width: 90%;
+    max-width: 250px;
+  }
+}

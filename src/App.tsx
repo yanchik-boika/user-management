@@ -43,7 +43,7 @@ const App: React.FC = () => {
         <h1>User Management</h1>
 
         {}
-        <div>
+        <div id="inputs">
           <input
               className="first-input"
               type="text"
