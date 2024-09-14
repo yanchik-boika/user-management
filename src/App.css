@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.filters input {
+  padding: 10px;
+  width: 23%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.first-input{
+  margin-left: 5em;
+  margin-bottom: 10px;
+  height: 2em;
+  width: 20em;
+  border: 1px solid black;
+}
+
+.second-input{
+  margin-left: 10em;
+  height: 2em;
+  width: 20em;
+  border: 1px solid black;
+}
+
+.third-input{
+  margin-left: 12em;
+  height: 2em;
+  width: 20em;
+  border: 1px solid black;
+}
+
+.fourth-input{
+  margin-left: 16em;
+  height: 2em;
+  width: 20em;
+  border: 1px solid black;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
